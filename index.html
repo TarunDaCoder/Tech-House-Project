@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Home - Tech House</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="img/Favicons/apple-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="img/Favicons/apple-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="img/Favicons/apple-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="img/Favicons/apple-icon-76x76.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="img/Favicons/apple-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="img/Favicons/apple-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="img/Favicons/apple-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="img/Favicons/apple-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="img/Favicons/apple-icon-180x180.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="64x64"
+			href="img/Favicons/android-icon-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="64x64"
+			href="img/Favicons/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="64x64"
+			href="img/Favicons/favicon-16x16.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="64x64"
+			href="img/Favicons/favicon-96x96.png"
+		/>
+		<link rel="manifest" href="/manifest.json" />
+		<meta name="msapplication-TileColor" content="#ffffff" />
+		<meta
+			name="msapplication-TileImage"
+			content="img/Favicons/ms-icon-144x144.png"
+		/>
+		<meta name="theme-color" content="#ffffff" />
+	</head>
+	<body>
+		<header>
+			<section class="container">
+				<section class="logo">
+					<a href="index.html">
+						<strong>Tech</strong>
+						<span class="blue_dot"></span>
+						<span>House</span>
+					</a>
+				</section>
+				<nav>
+					<ul>
+						<li>
+							<a href="AboutUs.html" data-page="AboutUs"
+								>About us</a
+							>
+						</li>
+						<li>
+							<a
+								href="index.html#most_liked_section"
+								data-page="most_liked"
+								>Most Liked</a
+							>
+						</li>
+						<li>
+							<a
+								href="index.html#newsletter_section"
+								data-page="newsletter"
+								>Newsletter</a
+							>
+						</li>
+                       <div class="hamburger_icon">
+                             <div class="line_1"></div>
+                            <div class="line_2"></div>
+                            <div class="line_3"></div>
+                     </div>
+
+                     <ul class="nav_list">
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Most Liked</a>
+                        </li>
+                        <li>
+                            <a href="#">Newsletter</a>
+                        </li>
+                     </ul>
+                    </ul>
+				</nav>
+			</section>
+		</header>
+
+		<main>
+			<article class="about_us_nav_animation" data-index="0">
+				About Us
+			</article>
+			<article class="most_liked_nav_animation" data-index="1">
+				Most Liked
+			</article>
+			<article class="newsletter_nav_animation" data-index="2">
+				Newsletter
+			</article>
+		</main>
+
+		<section class="hero">
+			<picture>
+				<source
+					media="(max-width: 576px)"
+					srcset="img/Hero_Mobile.png"
+				/>
+				<source
+					media="(max-width: 960px)"
+					srcset="img/Hero_Tablet.png"
+				/>
+				<source
+					media="(max-width: 1440px)"
+					srcset="img/Hero_Desktop.png"
+				/>
+				<img src="img/Hero_Large_Desktop.png" alt="smart watch hero" />
+			</picture>
+
+			<div class="hero_content">
+				<div class="container">
+					<h1>Explore our new smart watch series</h1>
+					<p>
+						The best products, the best prices. Shop now at Tech
+						House, one of the best online tech shopping websites.
+					</p>
+
+					<button>See all watches</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="most_liked" id="most_liked_section">
+			<h2>Most liked</h2>
+			<center><hr /></center>
+			<div class="product_slider">
+				<div class="container">
+					<div class="product new">
+						<div class="product_image">
+							<img
+								src="img/Watch_case.png"
+								alt="Penom Apple Watch Case"
+							/>
+						</div>
+						<div class="product_info">
+							<h5 class="categories">
+								Smart Watches, Cases, Apple
+							</h5>
+							<h4 class="title">Penom Case for Apple Watch</h4>
+							<h3 class="price">
+								<span>IN₹ 516.00</span>
+							</h3>
+							<button>Add to bag</button>
+						</div>
+					</div>
+
+					<div class="product new">
+						<div class="product_image">
+							<img
+								src="img/Headphone.png"
+								alt="Product: Noise Cancelling Headphones"
+							/>
+						</div>
+						<div class="product_info">
+							<h5 class="categories">Headphones, Audio, Sound</h5>
+							<h4 class="title">Noise Cancelling Headphones</h4>
+							<h3 class="price">
+								<span>IN₹ 1,359.00</span>
+							</h3>
+							<button>Add to bag</button>
+						</div>
+					</div>
+
+					<div class="product">
+						<div class="product_image">
+							<img
+								src="img/Camera.png"
+								alt="Canon Super-Expensive Camera"
+							/>
+						</div>
+						<div class="product_info">
+							<h5 class="categories">
+								Cameras, Kits, Photo & Video
+							</h5>
+							<h4 class="title">
+								Canon Digital SLR EOS Rebel T6
+							</h4>
+							<h3 class="price">
+								<span class="discounted_price"
+									>IN₹ 29,179.00</span
+								>
+								<span class="original_price"
+									>IN₹ 45,839.00</span
+								>
+							</h3>
+							<button>Add to bag</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="newsletter" id="newsletter_section">
+			<h3>Newsletter Sign up</h3>
+			<p>Subscribe now and don't miss a single deal!</p>
+			<form>
+				<input type="email" name="email" placeholder="Your email..." />
+				<button type="submit">Subscribe</button>
+			</form>
+		</section>
+
+		<footer>
+			<div class="bottom_navigator">
+				<div class="container">
+					<ul>
+						<li class="list_header">Categories</li>
+						<li><a href="#">Watches</a></li>
+						<li><a href="#">Cameras</a></li>
+						<li><a href="#">Phones</a></li>
+						<li><a href="#">Tablets</a></li>
+						<li><a href="#">Computers</a></li>
+					</ul>
+
+					<ul>
+						<li class="list_header">About Us</li>
+						<li><a href="#">Our Story</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Awards</a></li>
+						<li><a href="#">Stores</a></li>
+					</ul>
+
+					<ul>
+						<li class="list_header">Social Media</li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">LinkedIn</a></li>
+						<li><a href="#">Instagram</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">YouTube</a></li>
+					</ul>
+
+					<ul>
+						<li class="list_header">Customer Service</li>
+						<li><a href="#">Live Chat</a></li>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Delivery & Returns</a></li>
+						<li><a href="#">Finance</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="copyright_text">2020 &copy; All Rights Reserved</div>
+		</footer>
+		<script src="./app.js"></script>
+	</body>
+</html>
